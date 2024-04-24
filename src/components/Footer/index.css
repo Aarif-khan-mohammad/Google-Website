@@ -1,0 +1,14 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3C5B6F;
+    height: 5rem;
+}
+.foot{
+    background-image: linear-gradient(to right, #db4437, #e5592f, #ec6e26, #f1831c, #f4980f, #e3a300, #d1ac00, #beb501, #97b21e, #71ad34, #4aa647, #0f9d58);
+    background-clip: text;
+    color: transparent;
+    font-size: 3rem;
+}

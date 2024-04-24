@@ -1,0 +1,120 @@
+.login{
+    background-image: url("https://i.ibb.co/ctCwcGr/france-paris-city-4k-im-1920x1080.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container{
+    background-color: transparent;
+    border: 2px solid #F6F5F2;
+    height: 60%;
+    width: 30%;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Anta", sans-serif;
+    gap: 1rem;
+    box-shadow: #F6F5F2 0px 30px 60px -12px inset, #F6F5F2 0px 18px 36px -18px inset;
+    @media(max-width:800px){
+        width: 20rem;
+        height: 80%;
+        padding-bottom:2rem;
+    }
+    @media(min-width:800px) and (max-width:1280px) {
+        width: 30rem;
+    }
+
+}
+
+.log-head{
+    font-family: "Anta", sans-serif;
+    font-size: 2rem;
+}
+
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+
+}
+
+#username{
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-family: "Exo 2", sans-serif;
+    @media(max-width:800px){
+        width:12rem
+        
+    }
+}
+
+.username{
+    color: #fff;
+    font-size: 1.5rem;
+    @media(max-width:800px){
+        font-size: 1rem;
+    }
+}
+
+#password{
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    @media(max-width:800px){
+        width:12rem
+        
+    }
+}
+
+.password{
+    color: #fff;
+    font-size: 1.5rem;
+    @media(max-width:800px){
+        font-size: 1rem;
+    }
+}
+
+.button{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    align-self: center;
+    border: none;
+    outline: none;
+    background-color:  #4285F4;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Exo 2", sans-serif;
+    font-size: 1.1rem;
+    @media(max-width:800px){
+        height: 5rem;
+        width: 5rem;
+        font-size: 0.8rem;
+    }
+    @media(min-width:800px ) and (max-width:1280px){
+        height: 5rem;
+        width: 5rem;
+        font-size: 0.8rem;
+    }
+    
+}
+
+.button:hover{
+    box-shadow: #5BBCFF 0px 54px 55px, #5BBCFF 0px -12px 30px, #5BBCFF 0px 4px 6px, #5BBCFF 0px 12px 13px, #5BBCFF 0px -3px 5px;
+}
