@@ -103,15 +103,18 @@
     font-weight: bold;
     font-family: "Exo 2", sans-serif;
     font-size: 1.1rem;
+    margin-bottom:1rem;
     @media(max-width:800px){
         height: 5rem;
         width: 5rem;
         font-size: 0.8rem;
+        
     }
     @media(min-width:800px ) and (max-width:1280px){
         height: 5rem;
         width: 5rem;
         font-size: 0.8rem;
+        
     }
     
 }
